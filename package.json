@@ -1,7 +1,7 @@
 {
-  "name": "prerender-level-cache",
-  "version": "3.0.2",
-  "description": "Prerender plugin for level caching",
+  "name": "prerender-cache-auto-refresh",
+  "version": "1.0.0",
+  "description": "Prerender plugin with cache auto refresh",
   "main": "lib/levelCache.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxlath/prerender-level-cache.git"
+    "url": "https://github.com/Igor21v/prerender-cache-auto-refresh.git"
   },
   "keywords": [
     "prerender",
@@ -21,9 +21,9 @@
   "author": "maxlath",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxlath/prerender-level-cache/issues"
+    "url": "https://github.com/Igor21v/prerender-cache-auto-refresh/issues"
   },
-  "homepage": "https://github.com/maxlath/prerender-level-cache",
+  "homepage": "https://github.com/Igor21v/prerender-cache-auto-refresh",
   "dependencies": {
     "app-root-path": "^1.0.0",
     "level-party": "^4.0.0",
