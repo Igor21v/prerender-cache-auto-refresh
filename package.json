@@ -1,6 +1,6 @@
 {
   "name": "prerender-cache-auto-refresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prerender plugin with cache auto refresh",
   "main": "lib/levelCache.js",
   "scripts": {
