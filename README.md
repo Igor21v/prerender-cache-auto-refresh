@@ -1,5 +1,7 @@
 # prerender-cache-auto-refresh
 
+# The plugin is currently in development
+
 Prerender plugin for level caching, to be used with the prerender node application from https://github.com/prerender/prerender.
 
 ## How it works
