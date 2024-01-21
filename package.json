@@ -1,39 +1,31 @@
 {
   "name": "prerender-cache-auto-refresh",
-  "version": "1.0.1",
-  "description": "Prerender plugin with cache auto refresh",
-  "main": "lib/levelCache.js",
+  "version": "2.0.1",
+  "description": "Service to prerender Javascript rendered pages for SEO",
+  "author": "igor21v",
+  "license": "MIT",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Igor21v/prerender-cache-auto-refresh.git"
+    "url": "https://github.com/Igor21v/prerender-cache-auto-refresh"
   },
-  "keywords": [
-    "prerender",
-    "level",
-    "cache"
-  ],
-  "author": "maxlath",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Igor21v/prerender-cache-auto-refresh/issues"
-  },
-  "homepage": "https://github.com/Igor21v/prerender-cache-auto-refresh",
   "dependencies": {
     "app-root-path": "^1.0.0",
     "level-party": "^4.0.0",
-    "level-ttl": "^3.1.1"
+    "level-ttl": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "chrome-remote-interface": "^0.30.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "he": "^1.2.0",
+    "uuid": "^8.3.2",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">= 8"
-  },
-  "directories": {
-    "lib": "lib"
+    "node": ">= 10"
   }
 }
